@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BouhajaYoussef/static/css/main.5b201d04.css",
-    "main.js": "/BouhajaYoussef/static/js/main.0639e503.js",
-    "static/js/453.515ecba2.chunk.js": "/BouhajaYoussef/static/js/453.515ecba2.chunk.js",
-    "static/media/logo.png": "/BouhajaYoussef/static/media/logo.e4b6e77ddd2f01f8a336.png",
-    "index.html": "/BouhajaYoussef/index.html",
-    "main.5b201d04.css.map": "/BouhajaYoussef/static/css/main.5b201d04.css.map",
-    "main.0639e503.js.map": "/BouhajaYoussef/static/js/main.0639e503.js.map",
-    "453.515ecba2.chunk.js.map": "/BouhajaYoussef/static/js/453.515ecba2.chunk.js.map"
+    "main.css": "/my-portfoliew/static/css/main.5b201d04.css",
+    "main.js": "/my-portfoliew/static/js/main.e8a9cae0.js",
+    "static/js/453.515ecba2.chunk.js": "/my-portfoliew/static/js/453.515ecba2.chunk.js",
+    "static/media/logo.png": "/my-portfoliew/static/media/logo.e4b6e77ddd2f01f8a336.png",
+    "index.html": "/my-portfoliew/index.html",
+    "main.5b201d04.css.map": "/my-portfoliew/static/css/main.5b201d04.css.map",
+    "main.e8a9cae0.js.map": "/my-portfoliew/static/js/main.e8a9cae0.js.map",
+    "453.515ecba2.chunk.js.map": "/my-portfoliew/static/js/453.515ecba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b201d04.css",
-    "static/js/main.0639e503.js"
+    "static/js/main.e8a9cae0.js"
   ]
 }
