@@ -45,25 +45,25 @@ export default function Example() {
   }
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-      <header className="fixed top-0 left-0 right-0 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0 ">
+      <header className=" z-50 fixed top-0 left-0 right-0 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0 ">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
-          <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+          <div className="flex lg:flex-1 ">
+            <a href="#" className="-m-1.5 p-1.5 ">
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
                 src={logo}
-                className="h-8 w-auto border-blue-800 rounded-full border-2"
+                className="h-8 w-auto border-blue-800 rounded-full border-2  "
               />
             </a>
           </div>
-          <div className="flex lg:hidden">
+          <div className="flex lg:hidden ">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(true)}
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only ">Open main menu</span>
               <Bars3Icon aria-hidden="true" className="h-6 w-6" />
             </button>
           </div>
@@ -81,15 +81,15 @@ export default function Example() {
           </div>
         </nav>
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-          <div className="fixed inset-0 z-50 bg-black bg-opacity-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+          <div className="fixed inset-0  bg-black bg-opacity-50" />
+          <DialogPanel className="fixed inset-y-0 right-0  w-full overflow-y-auto  px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="flex items-center justify-between ">
+              <a href="#" className="-m-1.5 p-1.5 ">
+                <span className="sr-only ">Your Company</span>
                 <img
                   alt=""
                   src={logo}
-                  className="h-8 w-auto border-blue-800 rounded-full border-2"
+                  className="h-8 w-auto border-blue-800 rounded-full border-2  "
                 />
               </a>
               <button
@@ -189,7 +189,7 @@ export default function Example() {
             <img 
               src={logo} 
               alt="Logo" 
-              className="w-full border-2 border-blue-800 rounded-full shadow-lg" 
+              className="w-full border-2 border-blue-800 rounded-full shadow-lg  " 
             />
 
           </motion.div>
