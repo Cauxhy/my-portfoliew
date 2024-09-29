@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.5b201d04.css",
-    "main.js": "./static/js/main.da3328d2.js",
-    "static/js/453.515ecba2.chunk.js": "./static/js/453.515ecba2.chunk.js",
-    "static/media/logo.png": "./static/media/logo.e4b6e77ddd2f01f8a336.png",
-    "index.html": "./index.html",
-    "main.5b201d04.css.map": "./static/css/main.5b201d04.css.map",
-    "main.da3328d2.js.map": "./static/js/main.da3328d2.js.map",
-    "453.515ecba2.chunk.js.map": "./static/js/453.515ecba2.chunk.js.map"
+    "main.css": "/Cauxhy/my-portfoliew/static/css/main.5b201d04.css",
+    "main.js": "/Cauxhy/my-portfoliew/static/js/main.a96a202b.js",
+    "static/js/453.515ecba2.chunk.js": "/Cauxhy/my-portfoliew/static/js/453.515ecba2.chunk.js",
+    "static/media/logo.png": "/Cauxhy/my-portfoliew/static/media/logo.e4b6e77ddd2f01f8a336.png",
+    "index.html": "/Cauxhy/my-portfoliew/index.html",
+    "main.5b201d04.css.map": "/Cauxhy/my-portfoliew/static/css/main.5b201d04.css.map",
+    "main.a96a202b.js.map": "/Cauxhy/my-portfoliew/static/js/main.a96a202b.js.map",
+    "453.515ecba2.chunk.js.map": "/Cauxhy/my-portfoliew/static/js/453.515ecba2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b201d04.css",
-    "static/js/main.da3328d2.js"
+    "static/js/main.a96a202b.js"
   ]
 }
