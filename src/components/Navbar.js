@@ -115,15 +115,6 @@ export default function Example() {
                   ))}
                 </div>
                 <div className="py-6">
-                {links.map((link) => (
-              <motion.a
-                whileHover={{ scale: 1.1, color: "#FBBF24" }} 
-                key={link.name}
-                href={link.href}
-              >
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </motion.a>
-            ))}
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-white-50"
