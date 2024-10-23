@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Cauxhy.github.io/my-portfoliew",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -21,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d  build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d  build"
   },
   "eslintConfig": {
     "extends": [

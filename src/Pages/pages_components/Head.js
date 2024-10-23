@@ -67,7 +67,7 @@ export default function Example() {
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a className="text-sm font-semibold leading-6 text-gray-900">
+          <nav className="text-sm font-semibold leading-6 text-gray-900">
             <div style={{ display: 'flex', gap: '1rem' }}> {/* Adjust the gap as needed */}
               <a href="https://github.com/Cauxhy" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-github" style={{color: '#FEB95F', fontSize: '2rem' }}></i>
@@ -76,7 +76,7 @@ export default function Example() {
                 <i className="bi bi-linkedin " style={{color: '#FEB95F', fontSize: '2rem' }}></i>
               </a>
             </div>
-          </a>
+          </nav>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -129,7 +129,7 @@ export default function Example() {
                 </a>
               </div>
               <div className="py-6">
-                <a
+                <nav
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   <div style={{ display: 'flex', gap: '1rem' }}> {/* Adjust the gap as needed */}
@@ -140,7 +140,7 @@ export default function Example() {
                       <i className="bi bi-linkedin" style={{color: '#FEB95F', fontSize: '2rem' }}></i>
                     </a>
                   </div>
-                </a>
+                </nav>
               </div>
             </div>
           </div>
