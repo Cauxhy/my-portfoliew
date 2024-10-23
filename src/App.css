@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+
+.MyName {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description-2 {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
 }
+.title{
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-size: 18px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.link-font{
+  font-family: "Arima", system-ui;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
